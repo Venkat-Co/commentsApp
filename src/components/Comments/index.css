@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.main-heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-family: Roboto;
+}
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.desc {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.name {
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  color: #475569;
+  font-family: Roboto;
+  font-size: 18px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.comment {
+  border: 1px solid #cbd2d9;
+  color: #475569;
+  font-family: Roboto;
+  font-size: 18px;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.add-btn {
+  height: 40px;
+  width: 130px;
+  color: white;
+  font-family: Roboto;
+  font-size: medium;
+  background-color: #0284c7;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.line {
+  color: #cbd2d9;
+  width: 100%;
+}
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+.comments-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.comments-count {
+  color: white;
+  height: 20px;
+  width: 30px;
+  background-color: #0284c7;
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
